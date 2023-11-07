@@ -274,3 +274,12 @@ body {
     height: 350px;
   }
 }
+
+
+.prices{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 109px 115px 109px;
+}

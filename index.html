@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
   </head>
+  <div id="app">
   <body>
     <header class="header">
       <div class="header__logo">
@@ -106,8 +107,32 @@
            </div>
           </div>
         </div>
+    </section>
+    <section class="prices">
+      <div class="prices__menu">
+        <span class="menu__header">Prices</span>
+        <div class="menu__form">
+          <div class="menu__item" id="menu_item_1">
+            <span class="item__text">Basics</span>
+            <svg class="item__control"></svg>
+          </div>
+          <div class="menu__item" id="menu_item_1">
+            <span class="item__text">Standard</span>
+            <svg class="item__control"></svg>
+          </div>
+          <div class="menu__item" id="menu_item_1">
+            <span class="item__text">Pro Care</span>
+            <svg class="item__control"></svg>
+          </div>
+        </div>
+      </div>
+      <div class="prices__contact">
+        <span class="contact__header">Our best <span class="text_green">gardeners</span> are ready to help you</span>
+        <button class="orange_btn contact__btn"><div class="orange_btn-text">Contact Us</button>
+        <div class="contacts__image"></div>
       </div>
     </section>
     <script type="module" src="/src/service.ts"></script>
   </body>
+  </div>
 </html>
